@@ -7,6 +7,5 @@ README.md
 .nyc_output
 coverage
 .cache
-backend
 tmp
 .eslintcache

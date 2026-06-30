@@ -35,8 +35,7 @@ module.exports = (env, argv) => {
         ]
       }),
       new DefinePlugin({
-        'process.env.TOKEN_SIMULATION_VERSION': JSON.stringify(require('./package.json').version),
-        'process.env.BACKEND_URL': JSON.stringify(process.env.BACKEND_URL || 'http://localhost:8000')
+        'process.env.TOKEN_SIMULATION_VERSION': JSON.stringify(require('./package.json').version)
       })
     ],
     devtool,

@@ -42,7 +42,7 @@ Coloring is currently based on an early version of the tool and correspond to th
 
 ## Setup 
 
-This repository includes a setup for building and running a Docker container in which both the frontend and backend are run.
+This repository includes a setup for building and running a Docker container that serves the frontend.
 
 After cloning the repository, one has to execute the following command from the root directory:
 ```
