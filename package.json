@@ -8,6 +8,7 @@
     "all": "run-s bundle:src lint test bundle",
     "bundle:src": "rollup -c --bundleConfigAsCjs",
     "bundle": "webpack --mode production",
+    "build:pages": "npm run bundle:src && npm run bundle",
     "bundle:watch": "webpack -w",
     "start": "cross-env SINGLE_START=modeler npm run dev",
     "start:example": "webpack serve --static ./example --open",

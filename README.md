@@ -53,6 +53,31 @@ docker-compose -f .\docker-compose.prod.yml up --build
 For accessing the modeling environment, open a browser and go to [localhost/modeler.html](http://localhost/modeler.html) (port 80).
 
 
+## GitHub Pages
+
+This repository is configured to publish the static demo via GitHub Pages using GitHub Actions.
+
+### Local build check
+
+Run:
+```
+npm ci
+npm run build:pages
+```
+
+This produces the static site under `example/` with bundled assets in `example/dist/`.
+
+### Publish steps
+
+1. Push your changes to `main` (or `master`).
+2. In GitHub, go to **Settings > Pages**.
+3. Under **Build and deployment**, choose **Source: GitHub Actions**.
+4. Wait for the workflow `Deploy GitHub Pages` to complete.
+5. Open the deployed URL shown in the workflow summary.
+
+Workflow file: `.github/workflows/deploy-pages.yml`
+
+
 ## References
 <a id="1">[1]</a>
 De Giacomo, G., De Masellis, R., Maria Maggi, F., Montali, M.: 
