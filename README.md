@@ -8,6 +8,8 @@ This repository includes the proof-of-concept implementation and technical repor
 
 The tool is build on top of the BPMN token simulation extension of bpmn.io. For further details, [click here](https://github.com/bpmn-io/bpmn-js-token-simulation).
 
+## Video-Demonstration
+
 [Click here](./demo_video.mp4) to see a video presenting the features of the modeling environment, and a demonstration of the simulation as well as interpretation for monitoring purposes.
 
 ## Modeling
