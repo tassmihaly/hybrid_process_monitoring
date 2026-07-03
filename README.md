@@ -53,7 +53,7 @@ Global colors have the following meaning:
 - $${\color{yellow}YELLOW}$$: no constraint is currently violated, but at least one can become violated during execution
 - $${\color{orange}ORANGE}$$: at least one constraint is currently violated, but process execution can still satisfy all constraints
 - $${\color{red}RED}$$: at least one constraint is permanently violated
-- $${\color{grey}GREY}$$: it is inclusive whether all constraints can be satisfied or if at least one constraint will be permanently violated
+- $${\color{grey}GREY}$$: it is inconclusive whether all constraints can be satisfied or if at least one constraint will be permanently violated
 
 ## Setup 
 
